@@ -8,7 +8,8 @@
   /* Estilos Globais */
   body {
     font-family: 'Inter', sans-serif;
-    background-color: #385BD7;
+    background-color: #ffffff;
+    border: #00F9EA;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -19,7 +20,8 @@
   
   .header {
     width: 100%;
-    background-color: #8BB4F2;
+    background-color: #ffffff;
+    border: #00F9EA;
     display: flex;
     align-items: center;
     justify-content: space-between;
