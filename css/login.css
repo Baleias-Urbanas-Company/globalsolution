@@ -1,14 +1,9 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
   
   /* Estilos Globais */
   body {
     font-family: 'Inter', sans-serif;
-    background-color: #ffffff;
+    background-color: #8CB0C8;
     border: #00F9EA;
     color: #fff;
     display: flex;
@@ -16,59 +11,47 @@
     align-items: center;
     overflow-x: hidden;
     justify-content: center;
-    height: 100vh;
-    width: 200vh;
-  }
-  
-  .header {
-    width: 100%;
-    background-color: #ffffff;
-    border-color: #00F9EA;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    position: center;
-    height: 70px;
+
   }
   
   
   .cadastro {
-    background-color: #ffffff;
     border-radius: 50px;
-    border-color: #00F9EA;
     font-size: 16px;
     font-weight: 700;
-    padding: 20px;
     cursor: pointer;
+    margin-top: 80px;
   }
   
   .main-container {
     display: grid;
-    height: 370px;
-    background-color: #fdfdfd;
+    height: 500px;
+    background-color: #e7e6e6;
     border: #00F9EA solid;
     border-radius: 20px;
     align-items: center;
+    margin-top: 200px;
   } 
   
   .form-container {
     width: 400px;
-    padding: 40px;
+    padding: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
   .form-title {
-    font-size: 24px;
+    font-size: 35px;
     color: #000;
     font-weight: 700;
     margin-bottom: 20px;
+    height: 100px;
+    margin-top: auto;  
   }
   
   .form-group {
-    background-color: #ffffff;
+    background-color: #e7e6e6;
     border-radius: 50px;
     width: 100%;
     color: #000;
@@ -76,7 +59,7 @@
   }
   
   .form-label {
-    background-color: #ffffff;
+    background-color: #e7e6e6;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
@@ -85,7 +68,7 @@
   }
   
   .form-input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #000;
@@ -100,7 +83,7 @@
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: -110px;
   }
   
   .submit-button:hover {
@@ -113,11 +96,11 @@
   }
   
   .login-link {
-    color: #fff;
+    color: #000000;
     text-decoration: underline;
     transition: color 0.2s;
   }
   
   .login-link:hover {
-    color: #aaa;
+    color: #004df3;
   }
