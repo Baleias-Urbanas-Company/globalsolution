@@ -63,20 +63,6 @@ body {
  margin-top: 500px;
 }
 
-.container-chatbot {
-  background-color: rgba(175, 169, 169, 0.75);
-  padding: 30px;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 400px; /* Largura ajustada para telas menores */
-  margin-top: 80px; /* Aumenta a margem superior para evitar sobreposição com o header */
-  position: relative;
-  font-size: 16px;
-  left: 250px;
-  height: 300px;
-}
 
 .container-quiz {
   background-color: rgba(175, 169, 169, 0.75);
@@ -86,17 +72,12 @@ body {
   flex-direction: column;
   align-items: center;
   width: 400px; /* Largura ajustada para telas menores */
-  margin-top: -460px; /* Aumenta a margem superior para evitar sobreposição com o header */
+  margin-top: -90px; /* Aumenta a margem superior para evitar sobreposição com o header */
   position: relative;
   font-size: 16px;
-  right: 250px;
-  height: 300px;
+  height: 340px;
+  text-align: center;
 
-}
-
-.chat-png {
-  height: 200px; /* Ajusta a altura da logo para ocupar todo o header */
-  width: 200px;
 }
 
 .quiz-png {
