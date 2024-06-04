@@ -1,4 +1,6 @@
 /* Estilos Globais */
+
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #00599d;
@@ -46,7 +48,7 @@ body {
   padding: 0px;
   max-width: 600px; /* Largura máxima original */
   width: 100%; /* Ajustado para ocupar 100% do pai */
-  margin-top: 100px; /* Espaçamento do topo */
+  margin-top: 200px; /* Espaçamento do topo */
 }
 
 .form-container {
@@ -60,7 +62,8 @@ body {
   margin-top: 80px; /* Aumenta a margem superior para evitar sobreposição com o header */
   position: relative;
   font-size: 16px;
- margin-top: 500px;
+  margin-top: 500px;
+  
 }
 
 
@@ -81,7 +84,7 @@ body {
 }
 
 .quiz-png {
-  height: 250px; /* Ajusta a altura da logo para ocupar todo o header */
+  height: 230px; /* Ajusta a altura da logo para ocupar todo o header */
   width: 400px;
 }
 
