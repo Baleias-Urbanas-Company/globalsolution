@@ -23,12 +23,11 @@ body {
   position: fixed; /* Fixa o header no topo */
   top: 0;
   left: 0;
-  z-index: 1000; /* Garante que o header esteja acima de outros elementos */
   height: 70px; /* Altura padrão do header */
 }
 
 .logo {
-  height: 100%; /* Ajusta a altura da logo para ocupar todo o header */
+  height: 200px; /* Ajusta a altura da logo para ocupar todo o header */
   width: auto;
 }
 
@@ -66,28 +65,44 @@ body {
   
 }
 
+.grupo {
+  width: 330px;
+  height: 380px;
+}
 
-.container-quiz {
-  background-color: rgba(175, 169, 169, 0.75);
-  padding: 30px;
-  border-radius: 20px;
+.gubs {
+  color: white;
+  font-size: x-large;
+}
+
+.insta-gubs {
+  margin: 0 1px;
+}
+
+.insta-mari {
+  margin: 0 1px;
+}
+
+.mari {
+  color: white;
+  font-size: x-large;
+  padding: 300px, 340px;
+}
+
+.lucas {
+  color: white;
+  font-size: x-large;
+}
+
+.insta-lucas {
+  margin: 0 1px;
+}
+
+.baleias {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 400px; /* Largura ajustada para telas menores */
-  margin-top: -90px; /* Aumenta a margem superior para evitar sobreposição com o header */
-  position: relative;
-  font-size: 16px;
-  height: 340px;
-  text-align: center;
-
+  justify-content: space-around;
+  gap: 100px;
 }
-
-.quiz-png {
-  height: 230px; /* Ajusta a altura da logo para ocupar todo o header */
-  width: 400px;
-}
-
 
 @media (max-width: 600px) {
-
+}
