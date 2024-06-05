@@ -20,15 +20,21 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  position: fixed; /* Fixa o header no topo */
+  position: absolute;
   top: 0;
   left: 0;
   height: 70px; /* Altura padrão do header */
 }
 
 .logo {
-  height: 200px; /* Ajusta a altura da logo para ocupar todo o header */
+  height: 110px; /* Ajusta a altura da logo para ocupar todo o header */
   width: auto;
+}
+
+.integra {
+  position: relative;
+  align-items: center;
+  left: 350px;
 }
 
 .welcome-text {
@@ -47,7 +53,9 @@ body {
   padding: 0px;
   max-width: 600px; /* Largura máxima original */
   width: 100%; /* Ajustado para ocupar 100% do pai */
-  margin-top: 200px; /* Espaçamento do topo */
+  margin-top: 700px; /* Espaçamento do topo */
+  position: relative;
+  right: 350px;
 }
 
 .form-container {
@@ -81,6 +89,7 @@ body {
 
 .insta-mari {
   margin: 0 1px;
+
 }
 
 .mari {
@@ -102,6 +111,8 @@ body {
   display: flex;
   justify-content: space-around;
   gap: 100px;
+  position: relative;
+  left: 350px;
 }
 
 @media (max-width: 600px) {
