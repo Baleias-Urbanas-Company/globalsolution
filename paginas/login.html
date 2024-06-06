@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página de Login</title>
-  <link rel="stylesheet" href="/css/login.css" />
+  <script src="/js/login.js" defer></script>
+  <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
   <header class="header">
+    <img src="/img/baleia-logo.png" alt="Logo" class="logo"> 
+    <h1 class="welcome-text">Faça Login</h1>
+  
+    <a class="cadastro" href="/paginas/cadastro.html">Cadastrar</a>
+    <a class="login" href="/paginas/login.html">Login</a>
   </header>
 
-  <div class="main-container">  
-    <div class="form-container">
-      <h2 class="form-title">Fazer login</h2>
-      
-      <div class="form-group">
-        <label for="email" class="form-label">Email:</label>
-        <input type="email" id="email" class="form-input">
-      </div>
-      <div class="form-group">
-        <label for="senha" class="form-label">Senha:</label>
-        <input type="password" id="senha" class="form-input">
-      </div>
-      <div class="cadastro">
-        <p><a href="../paginas/cadastro.html" class="login-link">Ainda não possui uma conta? Cadastre-se</a></p>
-      </div>
-      <button class="submit-button">Enviar</button>
+  <main class="main-container">
+    <div id="login-form">
+      <h2>Login</h2>
+      <form id="form-login">
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" required>
+        <label for="login-senha">Senha:</label>
+        <input type="password" id="login-senha" required>
+        <button type="submit">Login</button>
+      </form>
     </div>
-  </div>
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
 </body>
 </html>

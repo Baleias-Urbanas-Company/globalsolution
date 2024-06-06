@@ -4,45 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página de Cadastro</title>
-  <script src="/js/main.js" defer></script>
+  
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header class="header">
     <img src="/img/baleia-logo.png" alt="Logo" class="logo"> 
-    <h1 class="welcome-text">Página Principal</h1>
+    <h1 class="welcome-text">Bem-Vindo</h1>
   
-      <a class="cadastro" href="/paginas/cadastro.html">Cadastrar</a>
-
-      <a class="login" href="/paginas/login.html">Login</a>
-
+    <a class="cadastro" href="/paginas/cadastro.html" onclick="showCadastro()">Cadastrar</a>
+    <a class="login" href="/paginas/login.html" onclick="showLogin()">Login</a>
   </header>
 
-
   <main class="main-container">
+    <div id="cadastro-form" style="display:none;">
+      <h2>Cadastro</h2>
+      <form id="form-cadastro">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" required>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <div id="login-form" style="display:none;">
+      <h2>Login</h2>
+      <form id="form-login">
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" required>
+        <label for="login-senha">Senha:</label>
+        <input type="password" id="login-senha" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <!-- Conteúdo Principal -->
     <div>
       <img class="tartaruga" src="/img/tartaruga.jpg" alt="tartaruga">
     </div>
     <div class="form-container">
-    <h2>
+      <h2>
         A poluição dos oceanos é uma questão ambiental crítica que exige nossa atenção e ação urgente. Os oceanos, que cobrem mais de 70% da superfície da Terra, são fundamentais para a vida no planeta, fornecendo oxigênio, regulando o clima e abrigando uma vasta biodiversidade. No entanto, a atividade humana está colocando essa preciosidade em risco.
-<br><br><br>
+        <br><br><br>
         Todos os anos, milhões de toneladas de lixo, especialmente plásticos, são despejados nos mares. Este lixo prejudica a vida marinha, mata aves, peixes, e mamíferos que ingerem ou ficam presos nos detritos. Além disso, os microplásticos, fragmentos minúsculos resultantes da decomposição de plásticos maiores, entram na cadeia alimentar e podem acabar nos alimentos que consumimos.
-<br><br><br>
+        <br><br><br>
         Os poluentes químicos, como petróleo, pesticidas e metais pesados, também contaminam as águas oceânicas, causando danos irreversíveis aos ecossistemas marinhos e à saúde humana. A acidificação dos oceanos, resultado da absorção de dióxido de carbono, ameaça os recifes de corais e outras formas de vida marinha.
-<br><br><br>
+        <br><br><br>
         É crucial aumentar a conscientização sobre os impactos devastadores da poluição nos oceanos. Todos podemos contribuir para a preservação dos oceanos adotando práticas sustentáveis, como reduzir o uso de plásticos descartáveis, reciclar corretamente, apoiar políticas de conservação marinha e participar de iniciativas de limpeza de praias e rios.
-<br><br><br>
- A proteção dos oceanos é uma responsabilidade coletiva. Apenas com esforços conjuntos podemos garantir a saúde e a sobrevivência desses ecossistemas vitais para as futuras gerações. Salvaguardar os oceanos é proteger a vida na Terra.
-    </h2>
-    <div>
-      <img class="lixo" src="/img/lixo.jpg" alt="lixo">
-    </div>
+        <br><br><br>
+        A proteção dos oceanos é uma responsabilidade coletiva. Apenas com esforços conjuntos podemos garantir a saúde e a sobrevivência desses ecossistemas vitais para as futuras gerações. Salvaguardar os oceanos é proteger a vida na Terra.
+      </h2>
+      <div>
+        <img class="lixo" src="/img/lixo.jpg" alt="lixo">
+      </div>
     </div>
 
-    <h2>
-      Sobre o grupo
-    </h2>
+    <h2>Sobre o grupo</h2>
 
     <div class="sobre-container">
       <h2>
@@ -51,52 +71,46 @@
     </div>
 
     <div class="integra">
-    <h2>
-      Integrantes
-    </h2>
+      <h2>Integrantes</h2>
     </div>
-        <div class="baleias">
-          <nav class="Gustavo">
-              <img class="grupo" src="/img/gubs.jpg" alt="gubs">
-              <p>Gustavo de Souza Amorim</p>
-              <p>RM 556999</p>
-              <a href="https://www.instagram.com/gubsz_/"><img class="insta-gubs" src="/img/insta.png" alt="insta do gubs"></a>
-              <a href="https://github.com/GustavoAmorim12"><img class="github-gubs" src="/img/github.png" alt="github-gubs"></a>
-          </nav>
-          <nav class="Mari">
-                  <img class="grupo" src="/img/neri.jpg" alt="mari">
-                  <p>Mariana Roberti Neri</p>
-                  <p>RM 556284</p>
-                  <a href="https://www.instagram.com/_i.neri/"><img class="insta-mari" src="/img/insta.png" alt="insta da mari"></a>
-                  <a href="https://github.com/marianaroberti"><img class="github-mari" src="/img/github.png" alt="github-mari"></a>
-          </nav>
-          <nav class="Lucas">
-              <img class="grupo" src="/img/abdutor.jpg" alt="lucas">
-                  <p>Lucas Abud Berbel</p>
-                  <p>RM 557957</p>
-                  <a href="https://www.instagram.com/luketa.__/"><img class="insta-lucas" src="/img/insta.png" alt="insta do lucas"></a>
-                  <a href="https://github.com/luketa02496"><img class="github-lucas" src="/img/github.png" alt="github-lucas"></a>
-          </nav>
-      </div>
 
-
-        
-      <script>
-        window.watsonAssistantChatOptions = {
-          integrationID: "53d91c49-eed0-4d22-a1dd-23ee66ff5ffa", // The ID of this integration.
-          region: "au-syd", // The region your integration is hosted in.
-          serviceInstanceID: "08406fe5-ade3-4020-b823-f93cc3f96304", // The ID of your service instance.
-          onLoad: async (instance) => { await instance.render(); }
-        };
-        setTimeout(function(){
-          const t=document.createElement('script');
-          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-          document.head.appendChild(t);
-        });
-      </script>
-
+    <div class="baleias">
+      <nav class="Gustavo">
+        <img class="grupo" src="/img/gubs.jpg" alt="gubs">
+        <p>Gustavo de Souza Amorim</p>
+        <p>RM 556999</p>
+        <a href="https://www.instagram.com/gubsz_/"><img class="insta-gubs" src="/img/insta.png" alt="insta do gubs"></a>
+        <a href="https://github.com/GustavoAmorim12"><img class="github-gubs" src="/img/github.png" alt="github-gubs"></a>
+      </nav>
+      <nav class="Mari">
+        <img class="grupo" src="/img/neri.jpg" alt="mari">
+        <p>Mariana Roberti Neri</p>
+        <p>RM 556284</p>
+        <a href="https://www.instagram.com/_i.neri/"><img class="insta-mari" src="/img/insta.png" alt="insta da mari"></a>
+        <a href="https://github.com/marianaroberti"><img class="github-mari" src="/img/github.png" alt="github-mari"></a>
+      </nav>
+      <nav class="Lucas">
+        <img class="grupo" src="/img/abdutor.jpg" alt="lucas">
+        <p>Lucas Abud Berbel</p>
+        <p>RM 557957</p>
+        <a href="https://www.instagram.com/luketa.__/"><img class="insta-lucas" src="/img/insta.png" alt="insta do lucas"></a>
+        <a href="https://github.com/luketa02496"><img class="github-lucas" src="/img/github.png" alt="github-lucas"></a>
+      </nav>
+    </div>
   </main>
 
+  <footer>
+    <!-- Footer content -->
   </footer>
+
+
+
+  <script>
+
+    function showLogin() {
+      document.getElementById('cadastro-form').style.display = 'none';
+      document.getElementById('login-form').style.display = 'block';
+    }
+  </script>
 </body>
 </html>
