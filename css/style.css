@@ -97,7 +97,7 @@ body {
   padding: 0px;
   max-width: 600px; /* Largura máxima original */
   width: 100%; /* Ajustado para ocupar 100% do pai */
-  margin-top: 00px; /* Espaçamento do topo */
+  margin-top: 1300px; /* Espaçamento do topo */
   position: relative;
   right: 350px;
 }
