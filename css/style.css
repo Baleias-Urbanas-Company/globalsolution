@@ -1,9 +1,9 @@
 /* Estilos Globais */
+
+
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #8CB0C8;
-  color: #fff;
-  border: #00F9EA;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,23 +14,26 @@ body {
 
 .header {
   width: 100%;
-  background-color: #8CB0C8;
-  color: #fff;
-  border: #00F9EA;
+  background-color: #82a8f3;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  position: fixed; /* Fixa o header no topo */
+  position: absolute;
   top: 0;
   left: 0;
-  z-index: 1000; /* Garante que o header esteja acima de outros elementos */
   height: 70px; /* Altura padrão do header */
 }
 
 .logo {
-  height: 100%; /* Ajusta a altura da logo para ocupar todo o header */
+  height: 110px; /* Ajusta a altura da logo para ocupar todo o header */
   width: auto;
+}
+
+.integra {
+  position: relative;
+  align-items: center;
+  left: 350px;
 }
 
 .welcome-text {
@@ -40,12 +43,23 @@ body {
   margin: 0 auto;
 }
 
-
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 0px;
+  max-width: 600px; /* Largura máxima original */
+  width: 100%; /* Ajustado para ocupar 100% do pai */
+  margin-top: 700px; /* Espaçamento do topo */
+  position: relative;
+  right: 350px;
+}
 
 .form-container {
-  background-color: #e7e6e6;
-  color: #000000;
-  border: 2px solid #00F9EA;
+  background-color: #ffffff;
+  border: 2px solid #00F9EA;  
   padding: 30px;
   border-radius: 20px;
   display: flex;
@@ -59,28 +73,47 @@ body {
   
 }
 
+.grupo {
+  width: 330px;
+  height: 380px;
+}
 
-.container-quiz {
-  background-color: #e7e6e6;
-  color: #000000;
-  border: 2px solid #00F9EA;
-  padding: 30px;
-  border-radius: 20px;
+.gubs {
+  color: white;
+  font-size: x-large;
+}
+
+.insta-gubs {
+  margin: 0 1px;
+}
+
+.insta-mari {
+  margin: 0 1px;
+
+}
+
+.mari {
+  color: white;
+  font-size: x-large;
+  padding: 300px, 340px;
+}
+
+.lucas {
+  color: white;
+  font-size: x-large;
+}
+
+.insta-lucas {
+  margin: 0 1px;
+}
+
+.baleias {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 400px; /* Largura ajustada para telas menores */
-  margin-top: -90px; /* Aumenta a margem superior para evitar sobreposição com o header */
+  justify-content: space-around;
+  gap: 100px;
   position: relative;
-  font-size: 16px;
-  height: 340px;
-  text-align: center;
-
+  left: 350px;
 }
 
-.quiz-png {
-  height: 250px; /* Ajusta a altura da logo para ocupar todo o header */
-  width: 400px;
+@media (max-width: 600px) {
 }
-
-
