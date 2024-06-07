@@ -337,6 +337,112 @@ button:hover {
     background-color: #8ef0e8;;
   }
 }
+@media (min-width: 1001px ) and (max-width: 1800px) {
 
+  body {
+    height: 100vh; /* Ocupa toda a altura visível da tela */
+    margin: 0; /* Remove margens padrão */
+    width: 100%;
+    align-items: center;
+  }
+  
+  .cadastro {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 10vw;
+  }
+  
+  .login {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    right: 10px;
+    font-size: 20px;
+  }
+  
+  
+  .header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px; /* Altura padrão do header */
+    align-items: center;
+  }
+  
+  .logo {
+    height: 110px; /* Ajusta a altura da logo para ocupar todo o header */
+    width: auto;
+    position: relative;
+    left: 0px;
+  }
+  
+  .welcome-text {
+    font-size: 0px;
+    font-weight: 800;
+    margin: 0 auto;
+    right: -50px;
+  }
+  
+  #btnLogin{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 50px;
+    padding-left: 10px;
+    box-shadow: inset 0 0 10px rgba(0,0,0, .8);
+    border: 2px solid #fff;
+    font-size: 2rem;
+  }
+  
+  .botoes{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .main-container {
+    max-width: 600px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 300px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #8ef0e8;
+  }
+}
 
 
