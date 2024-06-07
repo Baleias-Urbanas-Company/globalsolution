@@ -103,3 +103,21 @@
   .login-link:hover {
     color: #004df3;
   }
+  @media (min-width: 1001px ) and (max-width: 1800px) {
+
+    body {
+      height: 100vh; /* Ocupa toda a altura visível da tela */
+      margin: 0; /* Remove margens padrão */
+      width: 100%;
+      align-items: center;
+    }
+    
+    .cadastro {
+      border-radius: 20px;
+      width: 100px;
+      height: 30px;
+      right: 20px;
+      font-size: 20px;
+      font-weight: 10vw;
+    }
+  }  
