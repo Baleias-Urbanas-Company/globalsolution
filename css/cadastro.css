@@ -321,6 +321,7 @@ button:hover {
   .login-link:hover {
     color: #004df3;
   }
+}
   @media (min-width: 1001px ) and (max-width: 1800px) {
 
     body {
@@ -441,5 +442,4 @@ button:hover {
     background-color: #8ef0e8;;
   }
 
-}
 }
