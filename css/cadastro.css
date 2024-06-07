@@ -157,5 +157,18 @@
       border: 2px solid #fff;
       font-size: 2rem;
     }
+    .botoes{
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    .main-container {
+      max-width: 600px;
+      width: 300px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 300px;
+      border-radius: 8px;
+    }
   
   }  
