@@ -136,5 +136,11 @@
       height: 100px; /* Altura padrão do header */
       align-items: center;
     }
+    .logo {
+      height: 110px; /* Ajusta a altura da logo para ocupar todo o header */
+      width: auto;
+      position: relative;
+      left: 0px;
+    }
   
   }  
