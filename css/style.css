@@ -14,6 +14,7 @@ body {
 
 .cadastro {
   background-color: #8ef0e8;
+  color: #000;
   border-radius: 20px;
   width: 100px;
   height: 30px;
@@ -21,10 +22,16 @@ body {
   right: 20px;
   cursor: pointer;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 10vw;
 }
 
 .login {
   background-color: #8ef0e8;
+  color: #000;
   border-radius: 20px;
   width: 100px;
   height: 30px;
@@ -32,6 +39,10 @@ body {
   right: 10px;
   cursor: pointer;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 
@@ -118,6 +129,11 @@ body {
   
 }
 
+.about {
+  display: flex;
+  position: relative;
+}
+
 .sobre-container {
   background-color: #e7e6e6;
   border: 2px solid #00F9EA;  
@@ -127,10 +143,10 @@ body {
   flex-direction: column;
   align-items: center;
   width: 1000px; /* Largura ajustada para telas menores */
-  margin-top: 10px; /* Aumenta a margem superior para evitar sobreposição com o header */
+  margin-top: 30px; /* Aumenta a margem superior para evitar sobreposição com o header */
   position: relative;
   font-size: 16px;
-  height: 400px;
+  height: 270px;
 }
 
 .grupo {
@@ -189,5 +205,441 @@ body {
   left: 900px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 380px ) and (max-width: 600px) {
+  body {
+    height: 100vh; /* Ocupa toda a altura visível da tela */
+    margin: 0; /* Remove margens padrão */
+    width: 100%;
+    align-items: center;
+  }
+  
+  .cadastro {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 10vw;
+  }
+  
+  .login {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    right: 10px;
+    font-size: 20px;
+  }
+  
+  
+  .header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px; /* Altura padrão do header */
+    align-items: center;
+  }
+  
+  .logo {
+    height: 110px; /* Ajusta a altura da logo para ocupar todo o header */
+    width: auto;
+    position: relative;
+    left: 0px;
+  }
+  
+  .welcome-text {
+    font-size: 0px;
+    font-weight: 800;
+    margin: 0 auto;
+    right: -50px;
+  }
+  
+  #btnLogin{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 50px;
+    padding-left: 10px;
+    box-shadow: inset 0 0 10px rgba(0,0,0, .8);
+    border: 2px solid #fff;
+    font-size: 2rem;
+  }
+  
+  .botoes{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .form-container {
+    border: 2px solid #00F9EA;  
+    padding: -500px;
+    border-radius: 20px;
+    width: 300px; /* Largura ajustada para telas menores */
+    margin-top: -100px; /* Aumenta a margem superior para evitar sobreposição com o header */
+    font-size: 13px;
+    margin-top: 1800px;
+    left: 350px;
+    
+  }
+
+  .about {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+
+  .integra {
+    align-items: center;
+  }
+  
+  .sobre-container {
+    border: 2px solid #00F9EA;  
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px; /* Largura ajustada para telas menores */
+    margin-top: 30px; /* Aumenta a margem superior para evitar sobreposição com o header */
+    font-size: 16px;
+    height: 940px;
+    align-items: center;
+    left: 350px;
+  }
+  
+  .grupo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .gubs {
+    font-size: x-large;
+  }
+  
+  .insta-gubs {
+    margin: 0 1px;
+  }
+  
+  .insta-mari {
+    margin: 0 1px;
+  
+  }
+  
+  .mari {
+    padding: 300px, 340px;
+  }
+  
+  .lucas {
+    font-size: x-large;
+  }
+  
+  .insta-lucas {
+    margin: 0 1px;
+  }
+  
+  .baleias {
+    gap: 50px;
+    left: 350px;
+  }
+  
+  .lixo {
+    width: 0px;
+    margin-top: 0px;
+    right: 0px;
+  }
+  
+  .tartaruga {
+    width: 00px;
+    margin-top: 00px;
+    left: 0px;
+  }
+}
+
+@media (min-width: 601px ) and (max-width: 1000px) {
+  body {
+    height: 100vh; /* Ocupa toda a altura visível da tela */
+    margin: 0; /* Remove margens padrão */
+    width: 100%;
+    align-items: center;
+  }
+  
+  .cadastro {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 10vw;
+  }
+  
+  .login {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    right: 10px;
+    font-size: 20px;
+  }
+  
+  
+  .header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px; /* Altura padrão do header */
+    align-items: center;
+  }
+  
+  .logo {
+    height: 110px; /* Ajusta a altura da logo para ocupar todo o header */
+    width: auto;
+    position: relative;
+    left: 0px;
+  }
+  
+
+  
+  .welcome-text {
+    font-size: 0px;
+    font-weight: 800;
+    margin: 0 auto;
+    right: -50px;
+  }
+  
+  #btnLogin{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 50px;
+    padding-left: 10px;
+    box-shadow: inset 0 0 10px rgba(0,0,0, .8);
+    border: 2px solid #fff;
+    font-size: 2rem;
+  }
+  
+  .botoes{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .form-container {
+    border: 2px solid #00F9EA;  
+    border-radius: 20px;
+    width: 500px; /* Largura ajustada para telas menores */
+    font-size: 13px;
+    margin-top: 800px;
+    left: 350px;
+    
+  }
+
+  .integra {
+    align-items: center;
+    left: 350px;
+  }
+
+  .about {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 350px;
+  }
+  
+  .sobre-container {
+    border: 2px solid #00F9EA;  
+    padding: 30px;
+    border-radius: 20px;
+    width: 500px; /* Largura ajustada para telas menores */
+    margin-top: 00px; /* Aumenta a margem superior para evitar sobreposição com o header */
+    font-size: 16px;
+    height: 560px;
+    align-items: center;
+    left: 350px;
+  }
+  
+  .grupo {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .gubs {
+    font-size: x-large;
+  }
+  
+  .insta-gubs {
+    margin: 0 1px;
+  }
+  
+  .insta-mari {
+    margin: 0 1px;
+  
+  }
+  
+  .mari {
+    padding: 300px, 340px;
+  }
+  
+  .lucas {
+    font-size: x-large;
+  }
+  
+  .insta-lucas {
+    margin: 0 1px;
+  }
+  
+  .baleias {
+    gap: 50px;
+    left: 350px;
+  }
+  
+  .lixo {
+    width: 0px;
+    margin-top: 0px;
+    right: 0px;
+  }
+  
+  .tartaruga {
+    width: 00px;
+    margin-top: 00px;
+    left: 0px;
+  }
+}
+
+@media (min-width: 1001px ) and (max-width: 1800px) {
+  body {
+    height: 100vh; /* Ocupa toda a altura visível da tela */
+    margin: 0; /* Remove margens padrão */
+    width: 100%;
+    align-items: center;
+  }
+  
+  .cadastro {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 10vw;
+  }
+  
+  .login {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    right: 10px;
+    font-size: 20px;
+  }
+  
+  
+  .header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px; /* Altura padrão do header */
+    align-items: center;
+  }
+  
+  .logo {
+    height: 110px; /* Ajusta a altura da logo para ocupar todo o header */
+    width: auto;
+    position: relative;
+    left: 0px;
+  }
+  
+  .integra {
+    align-items: center;
+    left: 350px;
+  }
+  
+  .welcome-text {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 auto;
+    right: -50px;
+  }
+  
+  #btnLogin{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 50px;
+    padding-left: 10px;
+    box-shadow: inset 0 0 10px rgba(0,0,0, .8);
+    border: 2px solid #fff;
+    font-size: 2rem;
+  }
+  
+  .botoes{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .form-container {
+    border: 2px solid #00F9EA;  
+    border-radius: 20px;
+    width: 600px; /* Largura ajustada para telas menores */
+    font-size: 13px;
+    margin-top: 800px;
+    left: 350px;
+    
+  }
+
+  .about {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 350px;
+  }
+  
+  .sobre-container {
+    border: 2px solid #00F9EA;  
+    padding: 30px;
+    border-radius: 20px;
+    width: 500px; /* Largura ajustada para telas menores */
+    margin-top: 00px; /* Aumenta a margem superior para evitar sobreposição com o header */
+    font-size: 16px;
+    height: 560px;
+    align-items: center;
+    left: 350px;
+  }
+  
+  .grupo {
+    width: 200px;
+    height:200px;
+  }
+  
+  .gubs {
+    font-size: x-large;
+  }
+  
+  .insta-gubs {
+    margin: 0 1px;
+  }
+  
+  .insta-mari {
+    margin: 0 1px;
+  
+  }
+  
+  .mari {
+    padding: 300px, 340px;
+  }
+  
+  .lucas {
+    font-size: x-large;
+  }
+  
+  .insta-lucas {
+    margin: 0 1px;
+  }
+  
+  .baleias {
+    gap: 200px;
+    left: 350px;
+  }
+  
+  .lixo {
+    width: 0px;
+    margin-top: 0px;
+    position: relative;
+    right: 500px;
+  }
+  
+  .tartaruga {
+    width: 0px;
+    margin-top: 0px;
+    position: relative;
+    right: 500px;
+  }
 }
