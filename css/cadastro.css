@@ -148,5 +148,14 @@
       margin: 0 auto;
       right: -50px;
     }
+    #btnLogin{
+      width: 20vw;
+      height: 7vh;
+      border-radius: 50px;
+      padding-left: 10px;
+      box-shadow: inset 0 0 10px rgba(0,0,0, .8);
+      border: 2px solid #fff;
+      font-size: 2rem;
+    }
   
   }  
