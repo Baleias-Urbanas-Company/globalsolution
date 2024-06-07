@@ -46,6 +46,39 @@ body {
   text-decoration: underline;
 }
 
+.cadastro {
+  background-color: #8ef0e8;
+  color: #000;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 10vw;
+}
+
+.login {
+  background-color: #8ef0e8;
+  color: #000;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
 .main-container {
   max-width: 600px;
   width: 100%;

@@ -246,10 +246,6 @@ body {
     left: 0px;
   }
   
-  .integra {
-    align-items: center;
-  }
-  
   .welcome-text {
     font-size: 0px;
     font-weight: 800;
@@ -279,8 +275,8 @@ body {
     width: 300px; /* Largura ajustada para telas menores */
     margin-top: -100px; /* Aumenta a margem superior para evitar sobreposição com o header */
     font-size: 13px;
-    margin-top: 1400px;
-left: 350px;
+    margin-top: 1800px;
+    left: 350px;
     
   }
 
@@ -289,16 +285,21 @@ left: 350px;
     position: relative;
     align-items: center;
   }
+
+  .integra {
+    align-items: center;
+  }
   
   .sobre-container {
     border: 2px solid #00F9EA;  
     padding: 30px;
     border-radius: 20px;
-    width: 500px; /* Largura ajustada para telas menores */
+    width: 300px; /* Largura ajustada para telas menores */
     margin-top: 30px; /* Aumenta a margem superior para evitar sobreposição com o header */
     font-size: 16px;
-    height: 560px;
+    height: 940px;
     align-items: center;
+    left: 350px;
   }
   
   .grupo {
@@ -390,10 +391,7 @@ left: 350px;
     left: 0px;
   }
   
-  .integra {
-    align-items: center;
-    left: 350px;
-  }
+
   
   .welcome-text {
     font-size: 0px;
@@ -425,6 +423,11 @@ left: 350px;
     margin-top: 800px;
     left: 350px;
     
+  }
+
+  .integra {
+    align-items: center;
+    left: 350px;
   }
 
   .about {
@@ -494,7 +497,7 @@ left: 350px;
   }
 }
 
-@media (min-width: 1001px ) and (max-width: 1920px) {
+@media (min-width: 1001px ) and (max-width: 1800px) {
   body {
     height: 100vh; /* Ocupa toda a altura visível da tela */
     margin: 0; /* Remove margens padrão */
@@ -541,7 +544,7 @@ left: 350px;
   }
   
   .welcome-text {
-    font-size: 0px;
+    font-size: 30px;
     font-weight: 800;
     margin: 0 auto;
     right: -50px;
@@ -565,7 +568,7 @@ left: 350px;
   .form-container {
     border: 2px solid #00F9EA;  
     border-radius: 20px;
-    width: 500px; /* Largura ajustada para telas menores */
+    width: 600px; /* Largura ajustada para telas menores */
     font-size: 13px;
     margin-top: 800px;
     left: 350px;
@@ -592,8 +595,8 @@ left: 350px;
   }
   
   .grupo {
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height:200px;
   }
   
   .gubs {
@@ -622,19 +625,21 @@ left: 350px;
   }
   
   .baleias {
-    gap: 50px;
+    gap: 200px;
     left: 350px;
   }
   
   .lixo {
     width: 0px;
     margin-top: 0px;
-    right: 0px;
+    position: relative;
+    right: 500px;
   }
   
   .tartaruga {
-    width: 00px;
-    margin-top: 00px;
-    left: 0px;
+    width: 0px;
+    margin-top: 0px;
+    position: relative;
+    right: 500px;
   }
 }
